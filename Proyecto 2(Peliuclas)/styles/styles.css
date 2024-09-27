@@ -1,0 +1,70 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  color: #23527c;
+}
+
+/* Estilos para la navegación */
+nav {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+}
+
+/* Estilos para la sección de películas */
+.d {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pel {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#contenedor img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 1rem;
+}
+#contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+/* Estilos para cada película (asumiendo que se renderizarán aquí) */
+#contenedor > div {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
